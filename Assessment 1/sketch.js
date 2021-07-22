@@ -1,18 +1,18 @@
 function setup() {
-  createCanvas(400, 400);
-  frameRate(60)
+  createCanvas(500,100);
+  background(102, 102, 255);
+ 
+  fill(255, 0, 0, 25)
+  rect(25, 25, 50, 50, 15);
+  fill(255, 0, 0, 50)
+  rect(125, 25, 50, 50, 15);
+  fill(255, 0, 0, 100)
+  rect(225, 25, 50, 50, 15);
+  fill(255, 0, 0, 150)
+  rect(325, 25, 50, 50, 15);
+  fill(255, 0, 0, 200)
+  rect(425, 25, 50, 50, 15);
+ 
 }
 
-function draw() {
-  background(100, 200, 250);
-  ellipse(mouseX, mouseY, 30, 30);
-}
 
-function draw() {
-  if (mouseIsPressed) {
-    fill(0);
-  }else {
-    fill(255);
-  }
-  ellipse(mouseX, mouseY, 80, 80);
-}
